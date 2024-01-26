@@ -10,7 +10,7 @@
 .logo {
   margin-bottom: 20px;
   img {
-    width: 30px;
+   
     margin-right: 10px;
   }
 }
@@ -28,7 +28,7 @@
     h2 {
       font-size: 18px;
       margin: 0;
-    }
+         }
     p {
       font-size: 14px;
       margin: 0;
@@ -40,16 +40,18 @@
 .shortcuts {
   margin-top: 20px;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .menu-item,
 .shortcut-item {
+  margin-top:  20px; ;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   img {
     width: 20px;
-    margin-right: 10px;
+    margin-right: 40px;
   }
   span {
     font-size: 14px;
