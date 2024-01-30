@@ -8,12 +8,14 @@ import './App.scss';
 
 function App() {
   return (
+    <div className="main">
     <div className="app">
       <Sidebar />
       <div className="content">
         <Navbar />
         <Body />
       </div>
+    </div>
     </div>
   );
 }

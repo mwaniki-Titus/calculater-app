@@ -20,7 +20,7 @@ const Sidebar = () => {
     { icon: GroupsIcon, label: 'Groups' },
     { icon: VideosIcon, label: 'Videos' },
     { icon: PhotosIcon, label: 'Photos' },
-    { icon: EventsIcon, label: 'Events', value: 10 },
+    { icon: EventsIcon, label: 'Events',  value: 10},
   ];
 
   const shortcuts = [
@@ -46,8 +46,7 @@ const Sidebar = () => {
 
       <div className='menu'>
         <h3>MENU</h3>
-        {/* Render menu items dynamically */}
-        {menuItems.map((item, index) => (
+            {menuItems.map((item, index) => (
           <div key={index} className="menu-item">
             <img src={item.icon} alt={item.label} />
             <span>{item.label}</span>
@@ -58,8 +57,7 @@ const Sidebar = () => {
 
       <div className='shortcuts'>
         <h3>SHORTCUTS</h3>
-        {/* Render shortcut items dynamically */}
-        {shortcuts.map((shortcut, index) => (
+           {shortcuts.map((shortcut, index) => (
           <div key={index} className="shortcut-item">
             <img src={shortcut.icon} alt={shortcut.label} />
             <span>{shortcut.label}</span>
