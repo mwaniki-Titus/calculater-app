@@ -18,6 +18,17 @@ import Person8DesignIcon from '../assets/images/calendar (1).png';
 import Person9DesignIcon from '../assets/images/ink.png';
 import Person10DesignIcon from '../assets/images/unsplash_c1rOy44wuts (1).png';
 import Person11DesignIcon from '../assets/images/unsplash_XeYx043QD5U (1).png';
+import Person12DesignIcon from '../assets/images/avatar (1).png';
+import Person13DesignIcon from '../assets/images/video.png';
+import Person14DesignIcon from '../assets/images/image.png';
+import Person15DesignIcon from '../assets/images/star.png';
+import Person16DesignIcon from '../assets/images/avatar (1).png';
+import Person17DesignIcon from '../assets/images/unsplash_c1rOy44wuts.png';
+import Person18DesignIcon from '../assets/images/unsplash_XeYx043QD5U.png';
+import Person19DesignIcon from '../assets/images/heart.png';
+import Person20DesignIcon from '../assets/images/icon.png';
+import Person21DesignIcon from '../assets/images/share.png';
+
 import './Body.scss';
 
 const Body = () => {
@@ -49,8 +60,27 @@ const Body = () => {
   ];
 
   const photos = [
-    { icon: Person10DesignIcon, label: 'Photo 1' },
-    { icon: Person11DesignIcon, label: 'Photo 2' },
+    { icon: Person10DesignIcon, label: '' },
+    { icon: Person11DesignIcon, label: '' },
+  ];
+
+  const avatar = [
+    { icon: Person12DesignIcon, label: '' },
+  ];
+
+  const bottom = [
+    { icon: Person13DesignIcon, label: '' },
+    { icon: Person14DesignIcon, label: '' },
+    { icon: Person15DesignIcon, label: '' },
+  ];
+
+  const para2 = [
+    { icon: Person16DesignIcon, label: '' },
+    { icon: Person17DesignIcon, label: '' },
+    { icon: Person18DesignIcon, label: '' },
+    { icon: Person19DesignIcon, label: '' },
+    { icon: Person20DesignIcon, label: '' },
+    { icon: Person21DesignIcon, label: '' },
   ];
 
   return (
@@ -76,32 +106,60 @@ const Body = () => {
           </div>
           <div className="remaining-space">
             <div className="one">
-            <div className="completeProf">
-               
-               </div>
-               <div className="intro">
+              <div className="completeProf">
+                {/* Your "complete your profile" section goes here */}
+              </div>
+              <div className="intro">
+                <div className="range">
+                  {/* Your range input goes here */}
+                </div>
                 <p>i am an experienced joiner with <br />well developed skills</p>
-                 {intro.map((item, index) => (
-                   <div key={index}>
-                     <img src={item.icon} alt={item.label} />
-                     <p>{item.label}</p>
-                   </div>
-                 ))}
-               </div>
-               <div>
-                 <h2>Photos</h2>
-                 <div className="ph">
-                   {photos.map((photo, index) => (
-                     <div key={index}>
-                       <img src={photo.icon} alt={photo.label} />
-                       <p>{photo.label}</p>
-                     </div>
-                   ))}
-                 </div>
-               </div>
-                        </div>
+                {intro.map((item, index) => (
+                  <div key={index}>
+                    <img src={item.icon} alt={item.label} />
+                    <p>{item.label}</p>
+                  </div>
+                ))}
+              </div>
+              <div>
+                <h2>Photos</h2>
+                <div className="ph">
+                  {photos.map((photo, index) => (
+                    <div key={index}>
+                      <img src={photo.icon} alt={photo.label} />
+                      <p>{photo.label}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
             <div className="two">
-             
+              <div className="av">
+                {avatar.map((item, index) => (
+                  <div key={index}>
+                    <img src={item.icon} alt={item.label} />
+                    <input type="text" placeholder={item.label} />
+                  </div>
+                ))}
+                <div className="below">
+                  {bottom.map((item, index) => (
+                    <div key={index}>
+                      <img src={item.icon} alt={item.label} />
+                    </div>
+                  ))}
+                </div>
+                <div className="down">
+                  {para2.map((item, index) => (
+                    <div key={index}>
+                      <img src={item.icon} alt={item.label} />
+                    </div>
+                  ))}
+                </div>
+                <form>
+                  <input type="text" placeholder="Write your message" />
+                  <button type="submit">Send</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -142,5 +200,6 @@ const Body = () => {
 };
 
 export default Body;
+
 
 
