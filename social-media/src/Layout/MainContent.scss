@@ -1,0 +1,17 @@
+.main-right-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8FAFC;
+    .middle-content{
+        flex: 6;
+        margin: 10px;
+        width: 60vw; 
+        margin-left: 260px;
+
+
+    }
+    .right{
+        flex: 1;
+      
+    }
+}

@@ -1,0 +1,30 @@
+.shortcuts {
+  display: flex;
+  flex-direction: column;
+
+
+
+  .heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    h3 {
+       text-transform: uppercase;
+    }
+  }
+
+  .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 1px;
+    color: #0F172A;
+
+    p {
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,23 +1,17 @@
 
-// src/App.js
-import React from 'react';
-import Sidebar from './components/Sidebar';
-import Navbar from './components/Navbar';
-import Body from './components/Body';
-import './App.scss';
+import './App.scss'
+import Navbar from './layout/Navbar'
+import Main from './layout/Main'
+
 
 function App() {
+
   return (
-    <div className="main">
-    <div className="app">
-      <Sidebar />
-      <div className="content">
-        <Navbar />
-        <Body />
-      </div>
-    </div>
-    </div>
-  );
+<div className="social-media">
+  <Navbar/>
+  <Main/>
+</div>
+  )
 }
 
-export default App;
+export default App

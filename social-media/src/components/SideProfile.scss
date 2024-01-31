@@ -1,0 +1,17 @@
+.sideProfile {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    .leftprofile {
+      padding: 1px;
+      margin-right: 90px;
+      .Profilename {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .username {
+        font-size: 12px;
+      }
+    }
+  }
