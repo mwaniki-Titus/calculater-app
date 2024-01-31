@@ -16,6 +16,10 @@
       align-items: flex-start;
       gap: 10px;
       padding: 10px;
+     .see-all {
+        p{
+          background-color: aqua;
+        }
     
       img{
           width: 30px;
@@ -27,3 +31,4 @@
       }
     }
   }
+} 

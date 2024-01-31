@@ -1,6 +1,6 @@
 import './Main.scss';
 import MainContent from './MainContent';
-import RightBar from './RightBar';
+// import RightBar from './RightBar';
 import SideBar from './SideBar';
 
 

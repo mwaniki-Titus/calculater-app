@@ -5,6 +5,7 @@
     border-radius: 10px;
     margin: 10px;
     width: 50%;
+    // background-color: pink;
   
     .top-section {
       display: flex;
@@ -150,10 +151,9 @@
         }
   
         .icons {
+       
           position: absolute;
-          top: 50%;
-          right: 5%;
-          transform: translateY(-50%);
+          transform: translateY(-80%);
           cursor: pointer;
   
           img {

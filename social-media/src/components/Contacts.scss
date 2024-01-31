@@ -16,9 +16,14 @@
   }
 
   .ContactsMenu {
-    height: 30vh;
+    height: 40vh;
     overflow: scroll;
     scroll-behavior: smooth;
+  }
+  .see-all {
+    p{
+      background-color: aqua;
+    }
   }
 
   .ContactContainer {

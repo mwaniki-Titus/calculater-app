@@ -23,7 +23,9 @@ function Groups() {
     <div className="GroupItems">
       <div className="heading">
               <p style={{textTransform: "uppercase"}}>Your Page</p>
-              <p style={{color: "#2563EB"}}>See all</p>
+              <button className='see-all'>
+          <p>See-all</p>
+        </button> 
       </div>
       {groupData &&
         groupData.map((item, index) => (

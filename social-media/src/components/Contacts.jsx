@@ -34,7 +34,9 @@ function Contacts() {
     <div className="Contacts">
       <div className="Heading">
         <p style={{ textTransform: "uppercase" }}>Contacts</p>
-        <p style={{ color: "#2563EB" }}>See all</p>
+        <button className='see-all'>
+          <p>See-all</p>
+        </button>
       </div>
       <div className="ContactsMenu">
         {contacts &&
