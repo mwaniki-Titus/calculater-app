@@ -3,6 +3,7 @@ import './RightContent.scss';
 import AvatarImg from '../assets/images/Avatar.png';
 import VideoIcon from '../assets/images/video.png';
 import StarIcon from '../assets/images/star.png';
+import ImageIcon from '../assets/images/image.png';
 import PostImage1 from '../assets/images/post-image1.png';
 import PostImage2 from '../assets/images/post-image2.png';
 import HeartIcon from '../assets/images/heart.png';
@@ -28,7 +29,7 @@ const RightContent = () => {
           <p>Live Video</p>
         </div>
         <div className="img">
-          <img src={StarIcon} alt="" />
+          <img src={ImageIcon} alt="" />
           <p>Image/Video</p>
         </div>
         <div className="img">

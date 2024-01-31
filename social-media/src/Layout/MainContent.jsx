@@ -1,6 +1,6 @@
 import Bottom from '../components/Bottom';
 import Top from '../components/Top';
-import RightBar from './RightBar';
+// import RightBar from './RightBar';
 import './MainContent.scss';
 
 
@@ -15,9 +15,9 @@ const MainContent=()=>{
           <Bottom/>
         </div>
       </div>
-       <div className="right">
+       {/* <div className="right">
          <RightBar/> 
-       </div>
+       </div> */}
 
              
  </div>

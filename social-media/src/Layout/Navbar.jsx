@@ -24,7 +24,7 @@ const Navbar=()=>{
             <div className="nav-icons">
             <NavIcon url={Message}/>
             <NavIcon url={ActiveNotification}/>
-            <img className="profile" width={50} src={Profile} alt="profile"/>
+            <img className="profile" width={80} src={Profile} alt="profile"/>
             <NavIcon url={Chevron}/>
             </div>
             </div>

@@ -1,11 +1,12 @@
 import './Main.scss';
 import MainContent from './MainContent';
-// import RightBar from './RightBar';
+import RightBar from './RightBar';
 import SideBar from './SideBar';
 
 
 const Main=()=>{
     return (
+      <div className="all">
        <div className="main">
          <div className="sidebar">
           <SideBar/>
@@ -14,6 +15,11 @@ const Main=()=>{
           <MainContent/>
           
          </div>
+         <div className="content">
+          <RightBar/>
+          
+         </div>
+       </div>
        </div>
     )
 };

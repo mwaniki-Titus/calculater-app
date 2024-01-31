@@ -7,9 +7,11 @@ import Main from './layout/Main'
 function App() {
 
   return (
-<div className="social-media">
-  <Navbar/>
-  <Main/>
+  <div className="all">
+    <div className="social-media">
+      <Navbar/>
+      <Main/>
+   </div>
 </div>
   )
 }

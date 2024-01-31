@@ -42,7 +42,10 @@ const CenterContent = () => {
       <div className="gallery">
         <div className="all">
           <h4>Gallery</h4>
-          <p style={{ color: "#2563EB" }}>see-all</p>
+          <button className='see-all'>
+          <p>See-all</p>
+        </button>
+          
         </div>
         <div className="images">
           <img src={UnsplashImage} alt="" />
