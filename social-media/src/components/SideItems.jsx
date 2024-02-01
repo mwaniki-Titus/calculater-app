@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'; // Import NavLink
 import timeline from '../assets/images/layout-grid.png';
 import friends from '../assets/images/users.png';
 import groups from '../assets/images/star.png';
-import video from '../assets/images/video.png';
+import video from '../assets/images/video.png'
 import photos from '../assets/images/image.png';
 import Events from '../assets/images/calendar.png';
 import './SideItems.scss';
@@ -28,7 +28,7 @@ function SideItems() {
     {
       name: 'Videos',
       icon: video,
-      path: '/Videos', 
+      path: '/videos', 
     },
     {
       name: 'Photos',

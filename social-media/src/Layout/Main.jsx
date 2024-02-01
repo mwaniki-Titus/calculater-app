@@ -10,6 +10,7 @@ import Photos from '../Pages/Photos';
 import Profile from '../Pages/Profile';
 import Events from '../Pages/Events';
 import Groupsx from '../Pages/Groupsx';
+import Videos from '../Pages/Videos';
 // import Notifications from '../Pages/Notification';
 
 const Main = () => {
@@ -30,6 +31,8 @@ const Main = () => {
           <Route path='/events' element={<Events/>}/>
           <Route path='/profile' element={<Profile/>}/>
           <Route path='/photos' element={<Photos/>}/>
+          <Route path='/videos' element={<Videos/>}/>
+
         </Routes>
       </div>
     </div>

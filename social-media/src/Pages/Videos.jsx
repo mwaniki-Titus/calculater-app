@@ -1,6 +1,7 @@
 import React from 'react';
 import searh from "../assets/images/search-icon.png";
-import mgs from "../assets/images/music-icon.png"; 
+import mgs from "../assets/images/usesr.png"; 
+import nnn from "../assets/images/Mask Group (5).png"
 import shortshort from "../assets/images/shortshort.png";
 
 const Videos = () => {
@@ -17,7 +18,17 @@ const Videos = () => {
 
       <div className="v1">
         <div className="qq">
-          <img src="path_to_video_thumbnail" alt="Video Thumbnail" />
+          <img src={nnn} alt="" />
+        </div>
+        <div className="in">
+          <p>Music</p>
+          <img src={mgs} alt="Music Icon" />
+        </div>
+        <div className="see">
+          <button type="button">See all</button>
+        </div>
+        <div className="qq">
+          <img src={nnn} alt="" />
         </div>
         <div className="in">
           <p>Music</p>
@@ -27,6 +38,7 @@ const Videos = () => {
           <button type="button">See all</button>
         </div>
       </div>
+
       <div className="hh">
         <p>Conduct design process best practices across projects such as gathering insights, validating problems</p>
       </div>
