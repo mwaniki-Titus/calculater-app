@@ -1,7 +1,7 @@
 import Bottom from '../components/Bottom';
 import Top from '../components/Top';
-// import RightBar from './RightBar';
 import './MainContent.scss';
+
 
 
 const MainContent=()=>{
@@ -15,9 +15,6 @@ const MainContent=()=>{
           <Bottom/>
         </div>
       </div>
-       {/* <div className="right">
-         <RightBar/> 
-       </div> */}
 
              
  </div>

@@ -1,0 +1,174 @@
+.Timeline {
+
+  flex-wrap: wrap;
+
+  h3 {
+    // Styles for the h3 element inside the Timeline
+    // ...
+  }
+
+  .FriendsMenu {
+    // Styles for the FriendsMenu container
+    // ...
+
+    .FriendsContainer {
+      // Styles for individual friends containers
+      // ...
+
+      .ContactItem {
+        // Styles for the contact item
+        // ...
+
+        img {
+          // Styles for the friend's icon
+          // ...
+        }
+
+        p {
+          // Styles for the friend's name
+          // ...
+        }
+      }
+    }
+  }
+
+  .content-right {
+      width: 150px;
+
+    .top-section {
+      // Styles for the top-section container
+      // ...
+
+      .profile {
+        // Styles for the profile container
+        // ...
+
+        img {
+          // Styles for the profile image
+          // ...
+        }
+      }
+
+      .user-input {
+        // Styles for the user-input container
+        // ...
+
+        .input-text {
+          // Styles for the input-text element
+          // ...
+        }
+      }
+    }
+
+    .bottom-section {
+      // Styles for the bottom-section container
+      // ...
+
+      .img {
+        // Styles for the img container
+        // ...
+
+        img {
+          // Styles for the icon image
+          // ...
+        }
+
+        p {
+          // Styles for the text below the icon
+          // ...
+        }
+      }
+    }
+
+    .post-info {
+      // Styles for the post-info container
+      // ...
+
+      .user {
+        // Styles for the user container
+        // ...
+
+        img {
+          // Styles for the user's image
+          // ...
+        }
+
+        .info {
+          // Styles for the info container
+          // ...
+
+          p {
+            // Styles for the text elements inside info
+            // ...
+          }
+        }
+      }
+
+      .post-text {
+        // Styles for the post-text container
+        // ...
+
+        p {
+          // Styles for the text inside post-text
+          // ...
+        }
+      }
+
+      .post-images {
+        // Styles for the post-images container
+        // ...
+
+        img {
+          // Styles for the images inside post-images
+          // ...
+        }
+      }
+
+      .post-actions {
+        // Styles for the post-actions container
+        // ...
+
+        .likes,
+        .comments,
+        .shares {
+          // Styles for the individual action containers
+          // ...
+
+          img {
+            // Styles for the icon images inside actions
+            // ...
+          }
+
+          p {
+            // Styles for the text inside actions
+            // ...
+          }
+
+          span {
+            // Styles for the span elements inside actions
+            // ...
+          }
+        }
+      }
+
+      .message-input {
+        // Styles for the message-input container
+        // ...
+
+        input {
+          // Styles for the input element inside message-input
+          // ...
+        }
+
+        .icons {
+          // Styles for the icons container
+          // ...
+
+          img {
+          
+          }
+        }
+      }
+    }
+  }
+}

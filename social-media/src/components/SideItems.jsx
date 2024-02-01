@@ -1,6 +1,5 @@
-// UpdatedSideMenu.jsx
-
 import React from 'react';
+import { NavLink } from 'react-router-dom'; // Import NavLink
 import timeline from '../assets/images/layout-grid.png';
 import friends from '../assets/images/users.png';
 import groups from '../assets/images/star.png';
@@ -14,26 +13,32 @@ function SideItems() {
     {
       name: 'Timeline',
       icon: timeline,
+      path: '/timeline', 
     },
     {
       name: 'Friends',
       icon: friends,
+      path: '/friends', 
     },
     {
       name: 'Groups',
       icon: groups,
+      path: '/groupsx', 
     },
     {
       name: 'Videos',
       icon: video,
+      path: '/Videos', 
     },
     {
       name: 'Photos',
       icon: photos,
+      path: '/photos', 
     },
     {
       name: 'Events',
       icon: Events,
+      path: '/events', 
     },
   ];
 
@@ -45,10 +50,15 @@ function SideItems() {
       <div className="menu-list">
         {items &&
           items.map((item, index) => (
-            <div className="menu-item" key={index}>
+            <NavLink
+              to={item.path}
+              className="menu-item"
+              activeClassName="active" 
+              key={index}
+            >
               <img src={item.icon} alt={item.name} />
               <p>{item.name}</p>
-            </div>
+            </NavLink>
           ))}
       </div>
     </div>

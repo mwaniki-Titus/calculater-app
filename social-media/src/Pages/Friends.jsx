@@ -57,6 +57,7 @@ const Friends = () => {
               <div className="ContactItem">
                 <img src={item.icon} alt={item.name} />
                 <p>{item.name}</p>
+                <p>Message</p>
               </div>
             </div>
           ))}
