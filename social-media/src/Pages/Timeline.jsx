@@ -14,49 +14,56 @@ import SmileIcon from "../assets/images/mood-smile.png";
 import LinkIcon from "../assets/images/link.png";
 import PostImage1 from "../assets/images/photo-image1.png";
 import PostImage2 from "../assets/images/photos-image2.png";
+import PostImage3 from "../assets/images/post-image3.png";
+import './Timeline.scss'
 
 const Timeline = () => {
   const friends = [
     {
       icon: wade,
-      name: 'Angela Lee'
+      name: 'angeLee'
     },
     {
       icon: jane,
-      name: 'Jane Cooper'
+      name: 'angeLee'
     },
     {
       icon: esther,
-      name: 'Esther Howard'
+      name: 'angeLee'
     },
     {
       icon: cameron,
-      name: 'Camerron Williamson'
+      name: 'angeLee'
     },
     {
       icon: brooklyn,
-      name: 'Brooklyn Simmons'
+      name: 'angeLee'
     },
     {
       icon: wade,
-      name: 'Angela Lee'
+      name: 'angeLee'
     },
     {
       icon: jane,
-      name: 'Jane Cooper'
-    },
-    {
-      icon: esther,
-      name: 'Esther Howard'
+      name: 'angeLee'
     },
     {
       icon: cameron,
-      name: 'Camerron Williamson'
+      name: 'angeLee'
     },
     {
       icon: brooklyn,
-      name: 'Brooklyn Simmons'
-    }
+      name: 'angeLee'
+    },
+    {
+      icon: wade,
+      name: 'angeLee'
+    },
+    {
+      icon: jane,
+      name: 'angeLee'
+    },
+      
   ];
 
   return (
@@ -105,11 +112,12 @@ const Timeline = () => {
             </div>
           </div>
           <div className="post-text">
-            <p>Here are some photography works that I made on the weekend with some of my friends, happy for that!</p>
+            <p>Here are some photography works that I made on the weekend with some of my friends, i really love those colourfull tone  happy for that !</p>
           </div>
           <div className="post-images">
-            <img src={PostImage1} alt="" />
-            <img src={PostImage2} alt="" />
+            <img id='imgs' src={PostImage1} alt="" />
+            <img id='imgs' src={PostImage2} alt="" />
+            <img id='imgs' src={PostImage3} alt="" />
           </div>
           <div className="post-actions">
             <div className="likes">
@@ -139,3 +147,4 @@ const Timeline = () => {
 };
 
 export default Timeline;
+

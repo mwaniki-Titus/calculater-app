@@ -1,174 +1,192 @@
 .Timeline {
-
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 260px;
 
   h3 {
-    // Styles for the h3 element inside the Timeline
-    // ...
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-right: 600px;
+    margin-top: 30px;
   }
 
   .FriendsMenu {
-    // Styles for the FriendsMenu container
-    // ...
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     .FriendsContainer {
-      // Styles for individual friends containers
-      // ...
+      margin: 5px;
 
       .ContactItem {
-        // Styles for the contact item
-        // ...
+        text-align: center;
 
         img {
-          // Styles for the friend's icon
-          // ...
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-bottom: 5px;
         }
 
         p {
-          // Styles for the friend's name
-          // ...
+          margin: 0;
+          font-size: 14px;
         }
       }
     }
   }
 
   .content-right {
-      width: 150px;
+    width: 100%;
+    max-width: 800px; // Adjust as needed
+    margin-top: 20px;
 
     .top-section {
-      // Styles for the top-section container
-      // ...
+      display: flex;
+      align-items: center;
 
       .profile {
-        // Styles for the profile container
-        // ...
-
         img {
-          // Styles for the profile image
-          // ...
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          margin-right: 10px;
         }
       }
 
       .user-input {
-        // Styles for the user-input container
-        // ...
+        flex: 1;
 
-        .input-text {
-          // Styles for the input-text element
-          // ...
+        input {
+          width: 80%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
         }
       }
     }
 
     .bottom-section {
-      // Styles for the bottom-section container
-      // ...
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      flex-direction: row;
 
       .img {
-        // Styles for the img container
-        // ...
+        text-align: center;
+
 
         img {
-          // Styles for the icon image
-          // ...
+          width: 30px;
+          height: 30px;
         }
 
         p {
-          // Styles for the text below the icon
-          // ...
+          margin: 5px 0 0;
+          font-size: 12px;
         }
       }
     }
 
     .post-info {
-      // Styles for the post-info container
-      // ...
+      margin-top: 20px;
 
       .user {
-        // Styles for the user container
-        // ...
+        display: flex;
+        align-items: center;
 
         img {
-          // Styles for the user's image
-          // ...
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-right: 10px;
         }
 
         .info {
-          // Styles for the info container
-          // ...
-
           p {
-            // Styles for the text elements inside info
-            // ...
+            margin: 0;
+            font-size: 14px;
           }
         }
       }
 
       .post-text {
-        // Styles for the post-text container
-        // ...
-
-        p {
-          // Styles for the text inside post-text
-          // ...
-        }
+        margin-top: 10px;
+        font-size: 16px;
       }
 
       .post-images {
-        // Styles for the post-images container
-        // ...
+        display: flex;
+        margin-top: 10px;
+        width: 80;
+        height: 40;
+        #imgs{
+          width: 400px;
+          height: 100px;
+        }
 
         img {
-          // Styles for the images inside post-images
-          // ...
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          margin-right: 10px;
+          border-radius: 8px;
         }
       }
 
       .post-actions {
-        // Styles for the post-actions container
-        // ...
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
 
         .likes,
         .comments,
         .shares {
-          // Styles for the individual action containers
-          // ...
+          display: flex;
+          align-items: center;
 
           img {
-            // Styles for the icon images inside actions
-            // ...
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
           }
 
           p {
-            // Styles for the text inside actions
-            // ...
-          }
+            margin: 0;
+            font-size: 14px;
 
-          span {
-            // Styles for the span elements inside actions
-            // ...
+            span {
+              font-weight: bold;
+            }
           }
         }
       }
 
       .message-input {
-        // Styles for the message-input container
-        // ...
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
 
         input {
-          // Styles for the input element inside message-input
-          // ...
+          flex: 1;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
         }
 
         .icons {
-          // Styles for the icons container
-          // ...
+          display: flex;
+          margin-left: 10px;
 
           img {
-          
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
           }
         }
       }
     }
   }
 }
+

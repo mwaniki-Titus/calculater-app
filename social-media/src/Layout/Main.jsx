@@ -11,7 +11,7 @@ import Profile from '../Pages/Profile';
 import Events from '../Pages/Events';
 import Groupsx from '../Pages/Groupsx';
 import Videos from '../Pages/Videos';
-// import Notifications from '../Pages/Notification';
+import Notifications from '../Pages/Notification';
 
 const Main = () => {
   return (
@@ -27,11 +27,12 @@ const Main = () => {
           <Route path="/" element={<MainContent />} />
           <Route path='/groupsx' element={<Groupsx/>}/>
           <Route path='/timeline' element={<Timeline/>}/>
-          <Route path='/Friends' element={<Friends/>}/>
+          <Route path='/friends' element={<Friends/>}/>
           <Route path='/events' element={<Events/>}/>
           <Route path='/profile' element={<Profile/>}/>
           <Route path='/photos' element={<Photos/>}/>
           <Route path='/videos' element={<Videos/>}/>
+          
 
         </Routes>
       </div>

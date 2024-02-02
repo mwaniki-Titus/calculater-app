@@ -1,0 +1,87 @@
+.events {
+//    margin-right:0 ;
+    .topic {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    }
+  
+    .topnavigate {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+      margin: 20px;
+      
+    }
+  
+    .calender1 {
+   justify-content: space-between;
+    }
+  
+    .poetry {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+      margin-top: 20px;
+
+  
+      .eventimgs {
+        display: flex;
+        
+        flex-direction: column;
+  
+        .seminor {
+          
+        }
+  
+        .national {
+          display: flex;
+          flex-direction: column;
+        //   align-items: center;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+  
+        #vids {
+          
+        }
+  
+        .callend {
+      
+  
+          img {
+            
+          }
+        }
+  
+        .members {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+        }
+  
+        .mapp {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-top:20px;
+          margin-bottom: 20px;
+        }
+  
+        .continside {
+          
+  
+          button {
+            width: 300px;
+          }
+          .bottomeven{
+            display: flex;
+            flex-direction: row;
+            gap: 3rem;
+          }
+        }
+      }
+    }
+  }
+  

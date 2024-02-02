@@ -4,65 +4,82 @@ import jane from "../assets/images/Avatar1.png";
 import esther from "../assets/images/Avatar2.png";
 import cameron from "../assets/images/Avatar3.png";
 import brooklyn from "../assets/images/Avatar4.png";
+import './Friendsx.scss';
 
-const Friends = () => {
+const Friendsx = () => {
   const friends = [
     {
       icon: wade,
-      name: 'Angela Lee'
+      name: 'Angela Lee',
+      email: '@anglee',
     },
     {
       icon: jane,
-      name: 'Jane Cooper'
+      name: 'Jane Cooper',
     },
     {
       icon: esther,
-      name: 'Esther Howard'
+      name: 'Esther Howard',
+      email: '@anglee',
     },
     {
       icon: cameron,
-      name: 'Camerron Williamson'
+      name: 'Camerron Williamson',
+      email: '@anglee',
     },
     {
       icon: brooklyn,
-      name: 'Brooklyn Simmons'
+      name: 'Brooklyn Simmons',
+      email: '@anglee',
     },
     {
       icon: wade,
-      name: 'Angela Lee'
+      name: 'Angela Lee',
+      email: '@anglee',
     },
     {
       icon: jane,
-      name: 'Jane Cooper'
+      name: 'Jane Cooper',
+      email: '@anglee',
     },
     {
       icon: esther,
-      name: 'Esther Howard'
+      name: 'Esther Howard',
+      email: '@anglee',
     },
     {
       icon: cameron,
-      name: 'Camerron Williamson'
+      name: 'Camerron Williamson',
+      email: '@anglee',
     },
     {
       icon: brooklyn,
-      name: 'Brooklyn Simmons'
-    }
+      name: 'Brooklyn Simmons',
+      email: '@anglee',
+    },
   ];
 
   return (
-      <div className="FriendsMenu">
-        {friends &&
-          friends.map((item, index) => (
-            <div className='FriendsContainer' key={index}>
-              <div className="ContactItem">
-                <img src={item.icon} alt={item.name} />
-                <p>{item.name}</p>
-                <p>Message</p>
+    <div className="FriendsMenux">
+      {friends &&
+        friends.map((item, index) => (
+          <div className="FriendsContainerx" key={index}>
+            <div className="ContactItemx">
+              <img src={item.icon} alt={item.name} />
+              <div className="chec">
+              <p>{item.name}</p>
+              <p>{item.email}</p> 
               </div>
             </div>
-          ))}
-      </div>
-     );
+            <div className="btn">
+              <button type="button">Message</button>
+            </div>
+          </div>
+        ))}
+    </div>
+  );
 }
 
-export default Friends;
+export default Friendsx;
+
+
