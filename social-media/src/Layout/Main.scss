@@ -1,21 +1,24 @@
-
 .main {
     margin-top: 88px;
     display: flex;
     gap: 24px;
     width: 100vw;
     overflow-x: hidden;
-    
-   
-    
-    .sidebar{
-      
-        position: fixed;
   
-        left: 0;
+    .sidebar {
+      position: fixed;
+      left: 0;
+  
+      
     }
-    .main-content{
-        width: 80vw;
-        
+  
+    .main-content {
+      width: 80vw;
+  
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
     }
-}
+  }
+  

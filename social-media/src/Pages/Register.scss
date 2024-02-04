@@ -1,4 +1,90 @@
+/* register.scss */
 
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.card {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.left button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #4caf50;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right {
+  flex: 2;
+  padding: 20px;
+}
+
+.right h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.right input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.right .error {
+  color: #f00;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
+
+.right button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color: #45a049;
+}
 
 
 
