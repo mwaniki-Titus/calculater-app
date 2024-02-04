@@ -32,7 +32,8 @@ const Main = () => {
           <Route path='/profile' element={<Profile/>}/>
           <Route path='/photos' element={<Photos/>}/>
           <Route path='/videos' element={<Videos/>}/>
-          
+          {/* <Route path='/login' element={<Login/>}/>
+           */}
 
         </Routes>
       </div>

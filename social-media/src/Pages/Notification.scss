@@ -1,83 +1,53 @@
-.bigmain{
-    background-color: #ccc;
-  
-      
+.bigmain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .notification {
-    background-color: white;
+  background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 250px;
+    width: 300px;
     height: 600px;
     padding: 10px;
     position: absolute;
-    right: 10px;
+    right: 0px;
     top: 60px;
     z-index: 1000;
     background-color:white;
-  
-    .noti {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  
-      h4 {
-        font-size: 16px;
-        margin: 0;
-      }
-  
-      button {
-        background: none;
-        border: none;
-        cursor: pointer;
-      }
-    }
-  
-    .allnote {
-      margin-top: 10px;
-  
-      button {
-        background-color: #3498db;
-        border: none;
-        color: white;
-        cursor: pointer;
-        margin-right: 5px;
-        padding: 5px 10px;
-      }
-    }
-  
-    .tod,
-    .yesterday {
-      margin-top: 10px;
-  
-      h4 {
-        font-size: 14px;
-        margin: 0;
-      }
-    }
-  
-    .people {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 5px;
-  
-      .friend {
-        align-items: center;
-        display: flex;
-        margin-right: 10px;
-        margin-bottom: 5px;
-  
-        img {
-          border-radius: 50%;
-          margin-right: 5px;
-        }
-  
-        p {
-          font-size: 14px;
-          margin: 0;
-        }
-      }
-    }
-  }
+}
+
+.noti {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allnote {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.friend {
+  text-align: center;
+}
+
+.yesterday {
+  margin-top: 1rem;
 }

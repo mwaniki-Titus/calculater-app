@@ -1,19 +1,21 @@
 import './App.scss';
 import Navbar from './layout/Navbar';
+// import Login from './Pages/Login'
+// import Register from './Pages/Register'; 
 import Main from './layout/Main';
-import LoginForm from './Pages/Login'; 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
 
 function App() {
   return (
     <div className="all">
       <BrowserRouter>
-      <Routes>
-            <Route path="/login" element={<LoginForm />} />
-          </Routes>
         <div className="social-media">
+         <Routes>
+            {/* <Route path="/register" element={<Register />} />
+            <Route path="/" element={<Login/>} /> */}
+            <Route path="*" element={<Main />} />
+          </Routes>
           <Navbar />
-          <Main />
         </div>
       </BrowserRouter>
     </div>
@@ -21,3 +23,4 @@ function App() {
 }
 
 export default App;
+
