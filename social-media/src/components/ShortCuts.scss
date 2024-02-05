@@ -1,6 +1,7 @@
 .shortcuts {
   display: flex;
   flex-direction: column;
+  margin-top: 0;
   // margin: 20px;
   // background-color: gold;
 
@@ -29,9 +30,9 @@
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    // padding: 5px 1px;
+    padding: 5px 1px;
     color: #0F172A;
-    margin: 8px;
+    // margin: 8px;
 
     p {
       font-weight: 600;
