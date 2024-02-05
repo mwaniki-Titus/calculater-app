@@ -1,6 +1,7 @@
 .GroupItems {
     display: flex;
     flex-direction: column;
+    
     .heading {
       display: flex;
       flex-direction: row;
@@ -8,17 +9,18 @@
       align-items: flex-start;
       p {
         font-size: 12px;
-        font-weight: 700;
+        font-weight:700;
       }
     }
     .group-item{
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      padding: 10px;
+      padding: 5px;
+      align-items: center;
      .see-all {
         p{
-          background-color: aqua;
+          // background-color: aqua;
         }
     
       img{
@@ -26,8 +28,8 @@
           height: 30px;
       }
       p{
-          font-weight: 600;
-          font-size: 14px;
+          // font-weight: 100;
+          font-size: 6px;
       }
     }
   }

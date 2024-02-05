@@ -23,7 +23,7 @@ function Shortcuts() {
   return (
     <div className="shortcuts">
       <div className="heading">
-        <h3>Shortcuts</h3>
+        <h4>Shortcuts</h4>
       </div>
       {items &&
         items.map((item, index) => (
