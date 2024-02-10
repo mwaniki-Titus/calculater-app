@@ -2,17 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 60px;
+  // margin-right: 60px;
   h3 {
     font-size: 24px;
     margin-bottom: 30px;
-    margin-right: 600px;
+    // margin-right: 600px;
     margin-top: 30px;
   }
 
   .FriendsMenu {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: center;
 
     .FriendsContainer {
@@ -117,13 +117,13 @@
       .post-images {
         display: flex;
         flex-direction: raw;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         margin-top: 10px;
 
         img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
+          width: 50%;
+          // height: 50%;
+          // object-fit: cover;
           margin-right: 10px;
           border-radius: 8px;
         }
