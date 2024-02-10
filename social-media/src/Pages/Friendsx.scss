@@ -1,3 +1,4 @@
+/* Default styles */
 .FriendsMenux {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
@@ -6,55 +7,70 @@
   position: absolute;
   margin-right: 50px;
   width: 800px;
-  // height: 100px;
-  // background-color: aliceblue;
 }
 
 .FriendsContainerx {
   border: 1px solid #ddd;
   padding: 16px;
   text-align: center;
+  border-radius: 10px;
+  background-color: #ddd;
 }
 
 .ContactItemx {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-direction: row;
-  // justify-content: space-between;
 }
 
-.ContactItem img {
-  width: 50px; 
-  height: 50px; 
+.ContactItemx img {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-bottom: 8px;
 }
 
-.ContactItem p {
+.ContactItemx p {
   margin-bottom: 8px;
 }
 
 button {
-  
-  color:#2563EB;
+  color: #2563EB;
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
-  background-color: aliceblue;
+  background-color: white;
 }
-
 
 .btn {
   margin: 20px;
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .chec {
   display: flex;
   flex-direction: column;
-  background-color: aliceblue;
 }
 
+/* Media query for mobile view */
+@media screen and (max-width: 768px) {
+  .FriendsMenux {
+    grid-template-rows: repeat(10, 1fr); /* Adjust grid rows for smaller screens */
+    grid-template-columns: 1fr; /* Display as a single column on mobile */
+    width: 100%; 
+    margin-right: 0; 
+    position: static; /* Reset position */
+    padding: 0 16px; /* Add padding for better spacing */
+  }
+
+  .ContactItemx {
+    align-items: flex-start; /* Align items to the start */
+    text-align: left; /* Align text to the left */
+  }
+
+  .btn {
+    margin: 10px 0; /* Adjust margin for better spacing */
+  }
+}

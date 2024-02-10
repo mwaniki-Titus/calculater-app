@@ -172,3 +172,47 @@
     }
   }
   
+/* Media query for mobile view */
+@media screen and (max-width: 768px) {
+  .all {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .popgroup,
+  .above,
+  .part,
+  .groupmgs,
+  .next1,
+  .next1 .next,
+  .next1 .next .con,
+  .next1 .next .con .imgjoin,
+  .next1 .join,
+  .next1 .join .joinone,
+  .next3,
+  .ee,
+  .hh,
+  .botton {
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
+
+  .popgroup,
+  .next1,
+  .next1 .next,
+  .next1 .join,
+  .botton {
+    align-items: center; /* Center items on mobile */
+  }
+
+  .ablove h1 {
+    margin-right: 0; /* Remove margin on mobile */
+  }
+
+  .above img,
+  .next1 .next .con img,
+  .next1 img,
+  .next1 .join img,
+  .botton img {
+    width: 100px; /* Adjust image width for mobile */
+    height: auto;
+  }
+}

@@ -76,11 +76,11 @@ const Events = () => {
             <p>4517 Washington Ave. Manchester, <br /> Kentucky</p>
           </div>
           <div className="continside">
-            <button type="button">Register</button>
-          </div>
+          <button type="button">Register</button>
         </div>
       </div>
-      <div className="poetry">
+      </div>
+      <div className="eventspage">
         <div className="eventimgs">
           <div className="seminor">
             <img src={oinux} alt="" />        
@@ -109,6 +109,7 @@ const Events = () => {
           <div className="seminor">
             <img src={jinux} alt="" />        
           </div>
+          
           <div className="national">
             <h4>National Seminar</h4>
             <h5>By Emma Stone</h5>

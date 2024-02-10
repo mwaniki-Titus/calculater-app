@@ -44,6 +44,8 @@ const RightContent = () => {
             <p>Angela Lee</p>
             <p>56 mins</p>
           </div>
+
+          
         </div>
         <div className="post-text">
           <p>Here are some photography works that I made on the weekend with some of my friends, happy for that!</p>

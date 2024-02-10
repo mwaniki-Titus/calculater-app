@@ -12,8 +12,8 @@ import MessageIcon from "../assets/images/message-circle.png";
 import ShareIcon from "../assets/images/share.png";
 import SmileIcon from "../assets/images/mood-smile.png";
 import LinkIcon from "../assets/images/link.png";
-import PostImage1 from "../assets/images/photo-image1.png";
-import PostImage2 from "../assets/images/photos-image2.png";
+import PostImage1 from "../assets/images/post-image1.png";
+import PostImage2 from "../assets/images/post-image2.png";
 import PostImage3 from "../assets/images/post-image3.png";
 import './Timeline.scss'
 

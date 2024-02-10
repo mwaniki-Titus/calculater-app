@@ -1,87 +1,130 @@
 .events {
-//    margin-right:0 ;
-    .topic {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
+    margin-left: 5vh;
+  }
+  
+  .topic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .topnavigate {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin: 20px;
+  }
+  
+  .calender1 {
+    justify-content: space-between;
+  }
+  
+  .poetry {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 20px;
+  }
+  
+  .eventimgs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .national {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .members {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .mapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .continside {
+    button {
+      width: 300px;
+      background-color: aliceblue;
+    }
+  }
+  .eventspage{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 20px;
+  }
+  
+  .eventimgs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .national {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .members {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .mapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .continside {
+    button {
+      width: 300px;
+      background-color: aliceblue;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .events {
+      margin-left: 0;
     }
   
     .topnavigate {
-      display: flex;
       flex-direction: row;
-      gap: 3rem;
-      margin: 20px;
-      
-    }
-  
-    .calender1 {
-   justify-content: space-between;
+    //   align-items: center;
+    //   justify-content: space-around;
     }
   
     .poetry {
-      display: flex;
-      flex-direction: row;
-      gap: 3rem;
-      margin-top: 20px;
-
+      flex-direction: column;
+    }
   
-      .eventimgs {
-        display: flex;
-        
-        flex-direction: column;
+    .eventimgs {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   
-        .seminor {
-          
-        }
+    .mapp {
+      flex-direction: column;
+      align-items: center;
+    }
   
-        .national {
-          display: flex;
-          flex-direction: column;
-        //   align-items: center;
-          margin-top: 20px;
-          margin-bottom: 20px;
-        }
-  
-        #vids {
-          
-        }
-  
-        .callend {
-      
-  
-          img {
-            
-          }
-        }
-  
-        .members {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-
-        }
-  
-        .mapp {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          margin-top:20px;
-          margin-bottom: 20px;
-        }
-  
-        .continside {
-          
-  
-          button {
-            width: 300px;
-          }
-          .bottomeven{
-            display: flex;
-            flex-direction: row;
-            gap: 3rem;
-          }
-        }
-      }
+    .continside button {
+      width: 100%;
     }
   }
   

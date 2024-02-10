@@ -174,3 +174,52 @@
   width: 20px;
   height: 20px;
 }
+@media screen and (max-width: 768px) {
+  .content-right {
+    padding: 1rem; 
+    // position: static;
+  }
+
+  .top-section {
+    margin-top: 20px; 
+  }
+
+  .profile img {
+    width: 40px;
+    height: 40px; 
+    
+  }
+
+  .bottom-section {
+    flex-direction: row; 
+    align-items: flex-start;
+    margin: 10px 0; 
+    // position: static;
+    
+  }
+
+  .user {
+    margin: 10px 0; 
+    
+    padding: 0.5rem;
+
+  .user img {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px; 
+  }
+
+  .info h4 {
+    font-size: 14px;
+  }
+  .info p {
+    font-size: 10px;
+  }
+  .post-images{
+    display: flex;
+    flex-direction: column;
+  }
+}
+}
+@m

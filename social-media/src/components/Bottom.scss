@@ -37,3 +37,27 @@
       }
     }
 }
+@media screen and (min-width: 768px) {
+  .bottom .top {
+      flex-direction: row; 
+      margin-left: 10px;
+  }
+
+  .bottom .info {
+      margin-left: 10px; /* Restore margin for desktop view */
+  }
+
+  .bottom .stats {
+      flex-direction: row; /* Revert to row layout on larger screens */
+  }
+
+  .bottom .stats .post {
+      border-bottom: none; /* Remove border from individual posts on larger screens */
+      border-right: 2px solid rgb(202, 200, 200); /* Add border between individual posts */
+      padding: 0 10px; /* Adjust padding for individual posts */
+  }
+
+  .bottom .stats .post:last-child {
+      border-right: none; /* Remove border from last child to avoid extra line */
+  }
+}

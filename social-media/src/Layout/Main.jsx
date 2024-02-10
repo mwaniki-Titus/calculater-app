@@ -9,7 +9,6 @@ import SideBar from './SideBar';
 import Friends from '../Pages/Friends';
 import Timeline from '../Pages/Timeline';
 import Photos from '../Pages/Photos';
-import Profile from '../Pages/Profile';
 import Events from '../Pages/Events';
 import Groupsx from '../Pages/Groupsx';
 import Videos from '../Pages/Videos';
@@ -21,7 +20,7 @@ const Main = () => {
       <div className="sidebar">
         <SideBar />
       </div>
-      <div className="content">
+      <div className="rightbar">
         <RightBar />
       </div>
       <div className="main-content">
@@ -31,7 +30,6 @@ const Main = () => {
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/friends" element={<Friends />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/profile" element={<Profile />} />
           <Route path="/photos" element={<Photos />} />
           <Route path="/videos" element={<Videos />} />
         </Routes>

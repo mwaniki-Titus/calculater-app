@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 260px;
-
+  margin-right: 60px;
   h3 {
     font-size: 24px;
     margin-bottom: 30px;
@@ -39,7 +38,7 @@
 
   .content-right {
     width: 100%;
-    max-width: 800px; // Adjust as needed
+    max-width: 800px; 
     margin-top: 20px;
 
     .top-section {
@@ -75,7 +74,6 @@
 
       .img {
         text-align: center;
-
 
         img {
           width: 30px;
@@ -118,17 +116,13 @@
 
       .post-images {
         display: flex;
+        flex-direction: raw;
+        flex-wrap: wrap;
         margin-top: 10px;
-        width: 80;
-        height: 40;
-        #imgs{
-          width: 400px;
-          height: 100px;
-        }
 
         img {
-          width: 100px;
-          height: 100px;
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           margin-right: 10px;
           border-radius: 8px;
@@ -190,3 +184,48 @@
   }
 }
 
+/* Media query for mobile view */
+@media screen and (max-width: 768px) {
+  .Timeline {
+    margin-right: 0; 
+  }
+
+  .Timeline h3 {
+    margin-right: 0;
+  }
+
+  .content-right {
+    padding: 0 16px; 
+  }
+ 
+  .FriendsMenu .FriendsContainer {
+    margin: 5px 0;
+  }
+
+  .FriendsMenu .FriendsContainer .ContactItem {
+    text-align: center; 
+  }
+
+  .content-right .top-section .profile img {
+    width: 80px; 
+    height: 80px;
+  }
+
+  .content-right .post-info .user img {
+    width: 30px; 
+    height: 30px;
+  }
+
+  .content-right .post-info .post-text {
+    font-size: 14px; 
+  }
+
+  .content-right .post-info .post-images img {
+    width: 80px; 
+    height: 80px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+}

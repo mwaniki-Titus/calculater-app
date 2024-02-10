@@ -4,7 +4,7 @@ import LogoIcon from '../assets/images/logo.png';
 import Responsive from '../assets/images/responsive.png';
 import NavIcon from '../components/NavIcon';
 import ActiveNotification from '../assets/images/active-notification.png';
-import Profile from '../assets/images/Avatar1.png';
+import Profile from '../assets/images/Avatar.png';
 import Chevron from '../assets/images/chevron-down.png';
 import Message from '../assets/images/message-circle.png';
 import SearchForm from '../components/SearchForm';
