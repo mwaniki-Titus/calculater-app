@@ -174,10 +174,12 @@
   width: 20px;
   height: 20px;
 }
-@media screen and (max-width: 768px) {
+
+
+@media (max-width: 768px) {
   .content-right {
-    padding: 1rem; 
-    // position: static;
+    height: auto; 
+    margin: 0px;
   }
 
   .top-section {
@@ -185,41 +187,39 @@
   }
 
   .profile img {
-    width: 40px;
+    width: 40px; 
     height: 40px; 
-    
+  }
+
+  .user-input input {
+    padding: 8px; 
   }
 
   .bottom-section {
-    flex-direction: row; 
-    align-items: flex-start;
-    margin: 10px 0; 
-    // position: static;
-    
+    flex-direction: raw; 
+    margin: 10px; 
   }
 
-  .user {
-    margin: 10px 0; 
-    
-    padding: 0.5rem;
-
-  .user img {
-    display: flex;
-    flex-direction: column;
-    width: 60px;
-    height: 60px; 
+  .img img {
+    width: 40px; 
+    height: 40px;
   }
 
-  .info h4 {
-    font-size: 14px;
-  }
-  .info p {
-    font-size: 10px;
-  }
-  .post-images{
+  .post-images {
+    width:80px ;
     display: flex;
     flex-direction: column;
   }
+  .post-images img{
+    width: 100px;
+  }
+
+  .post-actions {
+    margin: 10px;
+  }
+
+  .icons img {
+    width: 16px; 
+    height: 16px; 
+  }
 }
-}
-@m

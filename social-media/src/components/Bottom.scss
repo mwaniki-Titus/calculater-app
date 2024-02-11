@@ -30,7 +30,7 @@
         padding: 0 10px;
         
         .header {
-          font-size: 20px;
+          font-size: 10px;
           color: rgb(165, 165, 165);
           
         }
@@ -44,20 +44,20 @@
   }
 
   .bottom .info {
-      margin-left: 10px; /* Restore margin for desktop view */
+      margin-left: 0px;
   }
 
   .bottom .stats {
-      flex-direction: row; /* Revert to row layout on larger screens */
+      flex-direction: row; 
   }
 
   .bottom .stats .post {
-      border-bottom: none; /* Remove border from individual posts on larger screens */
-      border-right: 2px solid rgb(202, 200, 200); /* Add border between individual posts */
-      padding: 0 10px; /* Adjust padding for individual posts */
+      border-bottom: none; 
+      border-right: 2px solid rgb(202, 200, 200); 
+      padding: 0 10px; 
   }
 
   .bottom .stats .post:last-child {
-      border-right: none; /* Remove border from last child to avoid extra line */
+      border-right: none; 
   }
 }

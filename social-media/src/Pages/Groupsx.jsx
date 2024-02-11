@@ -35,9 +35,7 @@ const Groupsx = () => {
         <div className='join'>
           <button type="button">Join Group</button>
           <img src={Avatar} alt="" />
-          <img src={Avatar} alt="" />
-          <img src={Avatar} alt="" />
-          <img src={Avatar} alt="" />
+          
         </div>
         </div>
         <div className="next">
@@ -53,9 +51,6 @@ const Groupsx = () => {
         </div>
         <div className='join'>
           <button type="button">Join Group</button>
-          <img src={Avatar} alt="" />
-          <img src={Avatar} alt="" />
-          <img src={Avatar} alt="" />
           <img src={Avatar} alt="" />
         </div>
         </div>

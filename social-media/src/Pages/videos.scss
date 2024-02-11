@@ -99,7 +99,7 @@
   
   .see {
     button {
-    //   background-color: #4CAF50;
+      background-color:aliceblue;
       color:  #2563EB;
       padding: 8px 16px;
       border: none;
@@ -142,5 +142,71 @@
       height: auto;
     }
   }
+  
+  /* Media query for mobile view */
+  @media screen and (max-width: 768px) {
+    .vid {
+      margin-right: 0; 
+    }
+
+    .catego {
+      flex-direction: row; 
+      align-items: flex-start; 
+      margin-top: 10px;
+    }
+
+    .mag {
+      flex-direction: column; 
+      gap: 10px; 
+    }
+
+    #vids {
+      width: 100%; 
+    }
+
+    .magge,
+    .imgsx {
+      img {
+        width: 100%; 
+      
+      }
+    }
+
+    .musicc {
+      .contentinside {
+        flex-direction: row; 
+        gap: 2rem; 
+      }
+
+      .imgtop {
+        flex-direction: row;
+        align-items: center;
+        gap: 2 rem;
+      }
+
+      // img {
+      //   width: 40px; 
+      //   margin-top: 5px; 
+      // }
+    }
+    .recent{
+      display: none;
+    }
+    .topof {
+      flex-direction: row; 
+      gap: 1 rem;
+    }
+
+    .leftt {
+      align-items: flex-start; 
+    }
+
+    .check {
+      flex-direction: column; 
+      gap: 10px; 
+    }
+    
+  }
+
   
   

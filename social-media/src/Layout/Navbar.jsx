@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={Responsive} alt="Responsive" />
+        {/* <img src={Responsive} alt="Responsive" /> */}
         <img src={LogoIcon} alt="Logo" />
       </div>
       <div className="right-nav">
