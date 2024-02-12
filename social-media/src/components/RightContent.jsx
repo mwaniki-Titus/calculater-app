@@ -51,8 +51,8 @@ const RightContent = () => {
           <p>Here are some photography works that I made on the weekend with some of my friends, happy for that!</p>
         </div>
         <div className="post-images">
-          <img src={PostImage1} alt="" />
-          <img src={PostImage2} alt="" />
+          <img id='imgpost' src={PostImage1} alt="" />
+          <img id='imgpost' src={PostImage2} alt="" />
         </div>
         <div className="post-actions">
           <div className="likes">

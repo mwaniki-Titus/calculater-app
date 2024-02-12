@@ -43,26 +43,26 @@ const Timeline = () => {
       icon: wade,
       name: 'angeLee'
     },
-    {
-      icon: jane,
-      name: 'angeLee'
-    },
-    {
-      icon: cameron,
-      name: 'angeLee'
-    },
-    {
-      icon: brooklyn,
-      name: 'angeLee'
-    },
-    {
-      icon: wade,
-      name: 'angeLee'
-    },
-    {
-      icon: jane,
-      name: 'angeLee'
-    },
+    // {
+    //   icon: jane,
+    //   name: 'angeLee'
+    // },
+    // {
+    //   icon: cameron,
+    //   name: 'angeLee'
+    // },
+    // {
+    //   icon: brooklyn,
+    //   name: 'angeLee'
+    // },
+    // {
+    //   icon: wade,
+    //   name: 'angeLee'
+    // },
+    // {
+    //   icon: jane,
+    //   name: 'angeLee'
+    // },
       
   ];
 

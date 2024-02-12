@@ -53,3 +53,17 @@
 .yesterday {
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .bigmain {
+    align-items: center;
+    // padding: 20px;
+  }
+
+  .notification {
+    width: 100%; 
+    // height: auto; 
+    top: 20px; 
+    right: 20px; 
+  }
+}

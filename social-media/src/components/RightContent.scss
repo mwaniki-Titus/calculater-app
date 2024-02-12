@@ -206,12 +206,17 @@
   }
 
   .post-images {
-    width:80px ;
+    margin-top: 20px;
+    width:250px ;
     display: flex;
     flex-direction: column;
   }
   .post-images img{
-    width: 100px;
+    width: 280px;
+  }
+  #imgpost{
+    width: 250px;
+    height: 100%;
   }
 
   .post-actions {

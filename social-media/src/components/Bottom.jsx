@@ -1,6 +1,6 @@
 import React from 'react'
 import './Bottom.scss'
-import CenterBody from '../layout/CenterBody'
+import CenterBody from '../Layout/CenterBody'
 
 const Bottom = () => {
   return (

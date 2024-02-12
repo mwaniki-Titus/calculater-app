@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 8px;
+   
 }
 
 .navbar .right-nav {
@@ -44,22 +45,27 @@
         border-radius: 10%;
     }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 786px) {
     .navbar {
         padding: 0 5px;
-         
     }
 
-    .navbar .right-nav {
+    .nav-input {
+        display: none; 
+    }
+    .profile{
         display: none;
+        
     }
 
     .navbar .nav-logo {
         justify-content: center; 
+        margin-left: 50px;
     }
+
 
     .navbar .nav-logo h1 {
         font-size: 20px; 
     }
+    
 }
