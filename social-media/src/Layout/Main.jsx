@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import './Main.scss';
 import MainContent from './MainContent';
 import RightBar from './RightBar';
-import SideBar from './SideBar';
+import SideBar from './Sidebar';
 import Friends from '../Pages/Friends';
 import Timeline from '../Pages/Timeline';
 import Photos from '../Pages/Photos';

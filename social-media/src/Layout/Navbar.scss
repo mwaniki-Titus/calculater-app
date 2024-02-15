@@ -48,14 +48,11 @@
 @media screen and (max-width: 786px) {
     .navbar {
         padding: 0 5px;
+        margin-left: 8vh;
     }
 
     .nav-input {
         display: none; 
-    }
-    .profile{
-        display: none;
-        
     }
 
     .navbar .nav-logo {
@@ -63,9 +60,16 @@
         margin-left: 50px;
     }
 
-
     .navbar .nav-logo h1 {
         font-size: 20px; 
     }
     
+    /* Add the following to hide profile and nav-icons */
+    .navbar .right-nav .nav-icons {
+        display: none;
+    }
+
+    .navbar .right-nav .profile {
+        display: none;
+    }
 }

@@ -1,0 +1,69 @@
+//health check
+GET http://localhost:8000/health
+
+//get all users /api/users
+###
+GET http://localhost:8000/api/users
+
+//get all users /api/groups
+###
+GET http://localhost:8000/api/groups
+//get all users /api/post
+###
+GET http://localhost:8000/api/posts
+
+//get all users /api/post
+###
+GET http://localhost:8000/api/events
+### //get Users by id
+GET http://localhost:8000/api/user/1
+### //create Users
+POST http://localhost:8000/api/users 
+content-Type: application/json
+
+{
+    "UserID": "10",
+    "Username": "user6",
+    "Email": "ser1@gmail.com",
+    "Password": "1234",
+    "TagName": "tag4",
+    "Location": "Location 58"
+}
+
+### //update user
+PUT http://localhost:8000/api/Users/1
+Content-Type: application/json
+
+{
+  
+    "UserID": 1,
+    "Username": "user1",
+    "Email": "useruser1@gmail.com",
+    "Password": "1234",
+    "TagName": "tag1",
+    "Location": "Area 51"
+  }
+
+
+### //complete a Users
+PATCH  http://localhost:8000/api/Users/1
+Content-Type: application/json
+
+{
+  "completed" :  true    
+}
+
+### //delete 
+DELETE http://localhost:8000/api/Users/7
+
+### //create group
+POST http://localhost:8000/api/groups
+content-Type: application/json
+
+{
+    "GroupID": 3,
+    "Groupname": "group 3",
+    "Description": "home of champs",
+    "Createddate": "{$datetime rfc1123}",
+  
+}
